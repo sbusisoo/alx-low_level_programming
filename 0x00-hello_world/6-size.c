@@ -5,10 +5,10 @@
  */
 int main(void)
 {
+char c;
 int  i;
 long int b;
 long long int d;
-char c;
 float f;
 
 printf("Size of a char: %lu.\n byte(s)", (unsigned long)sizeof(c);)
