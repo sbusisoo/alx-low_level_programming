@@ -10,7 +10,7 @@ void main(void)
 	int a[5];
 	int *p;
 
-	  /*
+  /**
    * write your line of code here...
    * Remember:
    * - you are not allowed to use a
@@ -24,6 +24,7 @@ void main(void)
 
 	a[2] = 1024;
 	p = &l;
+
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
