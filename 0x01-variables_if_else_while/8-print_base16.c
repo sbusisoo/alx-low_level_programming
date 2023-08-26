@@ -1,4 +1,4 @@
-#include <stio.h>
+#include <stdio.h>
 /**
  * main - a program that prints numbers of base of 16 in low case
  * Return: 0 success
