@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * alloc_grip - a functions that returns a pointer toa 2D array
+ * alloc_grid - a functions that returns a pointer to 2D array
  * @width: the width
  * @height: the height
  * Return: NULL on failure
  */
-int **alloc_grip(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int **mee;
 	int i, j;
