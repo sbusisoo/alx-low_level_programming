@@ -6,7 +6,7 @@
  * @argv: the array of argumenets
  * Return: 0 success
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int bytes, j;
 	char *ar;
@@ -27,7 +27,7 @@ int main (int argc, char *argv[])
 	{
 		if (j == bytes - 1)
 		{
-			printf ("%02hhx\n", ar[j]);
+			printf("%02hhx\n", ar[j]);
 			break;
 		}
 		printf("%02hhx ", ar[j]);
