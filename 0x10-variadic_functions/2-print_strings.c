@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * print_strings - a function that prints strings
- * @separator - the string to be printed
+ * @separator: the string to be printed
  * @n: the number if string passed to the funtions
  * @...: the varible to be printed
  */
@@ -22,7 +22,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("(nil)");
 		else
 			printf("%s", str);
-		if (ind != (n -1) && separator != NULL)
+		if (ind != (n - 1) && separator != NULL)
 			printf("%s", separator);
 	}
 	printf("\n");
