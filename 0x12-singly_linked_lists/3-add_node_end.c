@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * add_node - a functions that add a new node at the beginning of list_t
+ * add_node_end - a functions that add a new node at the beginning of list_t
  * @head: pointer to first node
  * @str: string to put new node
  * Return: address of the new element, or null if it fails
  */
-list_t *add_node(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new;
 	list_t *temp = *head;
